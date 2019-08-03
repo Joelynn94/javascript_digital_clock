@@ -35,7 +35,7 @@ function tick(){
 
     clock.innerHTML = time;
 
-}
+} // ends tick() function
 
 // calls the tick function every second to update the time
 setInterval(tick, 1000);
