@@ -20,10 +20,14 @@ span {
     display: inline-block;
 }
 
+div {
+    margin: 10% auto;
+}
+
 /* Clock styles */
 .clock {
     text-align: center;
-    margin: 25% auto;
+    margin: 20% auto;
     color: #17D4FE;
     font-size: 2.5em;
     font-family: 'Orbitron', sans-serif;
