@@ -1,1 +1,1 @@
-# javascript_digital_clock
+# A Digital Clock : built with JavaScript
