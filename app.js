@@ -1,7 +1,7 @@
 // reference to the clock div
 const clock = document.querySelector('.clock');
 
-// function to update time every second 
+// clock function 
 function tick(){
 
     const date = new Date();
@@ -22,7 +22,7 @@ function tick(){
     //     hours = "0" + hours;
     // }
 
-    // if check using ternary operators 
+    // IF check using ternary operators 
     seconds = (seconds < 10) ? "0" + seconds : seconds;
     minutes = (minutes < 10) ? "0" + minutes : minutes;
     hours = (hours < 10) ? "0" + hours : hours;
