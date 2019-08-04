@@ -15,17 +15,18 @@ function tick(){
     // displays current date
     let date = currentDate.toDateString();
 
-    // adds suffix AM or PM
+    // adds suffix for PM
     suffix = (hours >= 12) ? "PM" : suffix;
 
     // IF check using ternary operators 
     seconds = (seconds < 10) ? "0" + seconds : seconds;
     minutes = (minutes < 10) ? "0" + minutes : minutes;
     hours = (hours < 10) ? "0" + hours : hours;
-    // 12-hour format - the number of hours should not be greater than 12. So, 12 is deducted from the number of hours if it is greater than 12
-    hours = (hours === 0) ? 12 : ((hours > 12) ? (hours - 12) : hour);
 
-    // html template8+
+    // 12-hour format - the number of hours should not be greater than 12. So, 12 is deducted from the number of hours if it is greater than 12
+    hours = (hours === 0) ? 12 : ((hours > 12) ? (hours - 12) : hours);
+
+    // html template
     const html = `
     <span>${hours}</span> :
     <span>${minutes}</span> :
